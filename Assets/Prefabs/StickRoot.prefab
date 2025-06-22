@@ -50,8 +50,8 @@ MonoBehaviour:
   holder: {fileID: 0}
   rotationTime: 0.25
   rotationEase: 27
-  groundYOffset: 1
-  heldYOffset: 1.2
+  groundYOffset: 1.1
+  heldYOffset: 1.3
 --- !u!1001 &7687241832405510090
 PrefabInstance:
   m_ObjectHideFlags: 0

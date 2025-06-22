@@ -1,0 +1,30 @@
+{
+  "width": 10,
+  "height": 10,
+  "ground": [
+    ["grass","grass","grass","grass","grass","goal","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"],
+    ["grass","grass","grass","grass","grass","grass","grass","grass","grass","grass"]
+  ],
+  "objects": [
+    ["tree","tree","tree","tree","tree","tree","tree","tree","tree","tree"],
+    ["tree","","","","","","","","","tree"],
+    ["tree","","tree","tree","tree","tree","tree","tree","","tree"],
+    ["tree","","tree","dog","stick","","","","","tree"],
+    ["tree","","tree","tree","tree","tree","tree","tree","","tree"],
+    ["tree","","","","","","","","","tree"],
+    ["tree","tree","tree","tree","tree","tree","tree","tree","tree","tree"],
+    ["","","","","","","","","",""],
+    ["","","","","","","","","",""],
+    ["","","","","","","","","",""]
+  ],
+  "dogStartDir": "right",
+  "stickDir": "right"
+}

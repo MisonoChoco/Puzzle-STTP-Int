@@ -1,0 +1,28 @@
+{
+  "width": 9,
+  "height": 9,
+  "ground": [
+    ["grass", "grass", "grass", "grass", "goal",  "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"]
+  ],
+  "objects": [
+    ["",     "tree",  "",     "",     "",     "",     "",     "tree", ""],
+    ["tree", "",     "",     "",     "",     "",     "",     "",     "tree"],
+    ["",     "",     "",     "tree", "",     "tree", "",     "",     ""],
+    ["",     "",     "tree", "",     "",     "",     "tree", "",     ""],
+    ["",     "",     "",     "",     "dog",  "stick","",     "",     ""],
+    ["",     "",     "tree", "",     "",     "",     "tree", "",     ""],
+    ["",     "",     "",     "tree", "",     "tree", "",     "",     ""],
+    ["tree", "",     "",     "",     "",     "",     "",     "",     "tree"],
+    ["",     "tree", "",     "",     "",     "",     "",     "tree", ""]
+  ],
+  "dogStartDir": "right",
+  "stickDir": "right"
+}

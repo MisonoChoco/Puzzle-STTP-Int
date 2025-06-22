@@ -1,0 +1,24 @@
+{
+  "width": 7,
+  "height": 7,
+  "ground": [
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "goal",  "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+    ["grass", "grass", "grass", "grass", "grass", "grass", "grass"]
+  ],
+  "objects": [
+    ["", "", "", "", "", "", ""],
+    ["", "", "tree", "", "tree", "", ""],
+    ["", "", "", "", "", "", ""],
+    ["", "", "", "dog", "", "", ""],
+    ["", "", "", "stick", "", "", ""],
+    ["", "", "", "", "", "", ""],
+    ["", "", "", "", "", "", ""]
+  ],
+  "dogStartDir": "up",
+  "stickDir": "up"
+}

@@ -204,6 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223582415}
   - component: {fileID: 223582419}
+  - component: {fileID: 223582420}
   - component: {fileID: 223582418}
   - component: {fileID: 223582417}
   - component: {fileID: 223582416}
@@ -329,6 +330,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223582414}
   m_CullTransparentMesh: 1
+--- !u!114 &223582420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223582414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adca6beeb87eecd4d988579166493df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedEffect: 15
+  duration: 0.5
+  offsetDistance: 100
+  playOnStart: 1
+  resetOnDisable: 1
+  autoAddCanvasGroup: 1
+  easeType: 9
+  delay: 0
+  useUnscaledTime: 0
+  ignoreTimeScale: 0
+  shakeStrength: 0.5
+  pulseScale: 1.2
+  showDebugLogs: 0
 --- !u!1 &375681067
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912162434}
   - component: {fileID: 912162436}
+  - component: {fileID: 912162437}
   - component: {fileID: 912162435}
   m_Layer: 5
   m_Name: Text (TMP)
@@ -484,7 +511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -89, y: 99}
+  m_AnchoredPosition: {x: -89, y: 80}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &912162435
@@ -511,8 +538,8 @@ MonoBehaviour:
     pick up nearest stick from its mouth\n-Q, E to rotate the stick while holding
     it\n-X to undo. Does not undo dog rotations... \n\nHop on the grime colored block
     with stick held to win.\n\n!!It is advised to not use dog rotate (C,V) WHILE
-    HOLDING THE STICK as the system is currently unstable, might cause some bugs.
-    Please use stick rotate (Q,E) instead!!\n\n\n"
+    HOLDING THE STICK as it might cause some bugs. Please use stick rotate (Q,E)
+    instead. Thank you!!\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ef60dc26b7abc5a4cb0418f52551cacc, type: 2}
   m_sharedMaterial: {fileID: -8747818800198613620, guid: ef60dc26b7abc5a4cb0418f52551cacc, type: 2}
@@ -591,6 +618,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912162433}
   m_CullTransparentMesh: 1
+--- !u!114 &912162437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912162433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adca6beeb87eecd4d988579166493df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedEffect: 6
+  duration: 0.5
+  offsetDistance: 100
+  playOnStart: 1
+  resetOnDisable: 1
+  autoAddCanvasGroup: 1
+  easeType: 9
+  delay: 0
+  useUnscaledTime: 0
+  ignoreTimeScale: 0
+  shakeStrength: 0.5
+  pulseScale: 1.2
+  showDebugLogs: 0
 --- !u!1 &913042712
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,6 +837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1605650048}
   - component: {fileID: 1605650050}
+  - component: {fileID: 1605650051}
   - component: {fileID: 1605650049}
   m_Layer: 5
   m_Name: Image
@@ -850,6 +903,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605650047}
   m_CullTransparentMesh: 1
+--- !u!114 &1605650051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605650047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adca6beeb87eecd4d988579166493df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedEffect: 7
+  duration: 1.01
+  offsetDistance: 100
+  playOnStart: 1
+  resetOnDisable: 1
+  autoAddCanvasGroup: 1
+  easeType: 9
+  delay: 0
+  useUnscaledTime: 0
+  ignoreTimeScale: 0
+  shakeStrength: 0.5
+  pulseScale: 1.2
+  showDebugLogs: 0
 --- !u!1 &1631172650
 GameObject:
   m_ObjectHideFlags: 0
