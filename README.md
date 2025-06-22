@@ -1,6 +1,6 @@
 # Puzzle-STTP-Int
 
-No high score saving, no animations yet. Will do it later
+No animations yet. Will do it later. High score? That is your unlocked levels.
 
 Some bonus features are included; check the tutorial scene.
 
