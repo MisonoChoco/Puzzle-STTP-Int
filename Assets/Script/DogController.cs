@@ -40,10 +40,12 @@ public class DogController : MonoBehaviour
     private Tween currentMoveTween;
     private Tween currentRotationTween;
 
-    // Enhanced movement WITHOUT automatic rotation
+    // movement
     public bool TryMove(Vector2Int direction)
     {
         if (isMoving || isRotating) return false;
+
+        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Resources/Move"), transform.position);
 
         Vector2Int targetPos = gridPos + direction;
 
@@ -76,6 +78,8 @@ public class DogController : MonoBehaviour
     {
         if (isMoving || isRotating) return false;
 
+        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Resources/Move"), transform.position);
+
         Direction newFacing = DirectionUtil.RotateLeft(facing);
         return ExecuteRotation(newFacing);
     }
@@ -83,6 +87,8 @@ public class DogController : MonoBehaviour
     public bool TryRotateRight()
     {
         if (isMoving || isRotating) return false;
+
+        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Resources/Move"), transform.position);
 
         Direction newFacing = DirectionUtil.RotateRight(facing);
         return ExecuteRotation(newFacing);

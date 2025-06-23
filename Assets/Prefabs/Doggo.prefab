@@ -737,7 +737,25 @@ MonoBehaviour:
   hasStick: 0
   heldStick: {fileID: 0}
   moveTime: 0.2
+  rotationTime: 0.2
+  moveEase: 12
+  rotationEase: 27
   visualYOffset: 1
+  OnMoveStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMoveComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStickPickup:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStickDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRotate:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1105052737016583347
 GameObject:
   m_ObjectHideFlags: 0

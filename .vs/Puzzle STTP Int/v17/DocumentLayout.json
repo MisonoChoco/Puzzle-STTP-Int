@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\UNITIES\\Puzzle STTP Int\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\ui\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|e:\\unities\\puzzle sttp int\\assets\\script\\ui\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|e:\\unities\\puzzle sttp int\\assets\\script\\ui\\universalanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\ui\\universalanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\universalanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\stickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\ui\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
@@ -166,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LevelSelect.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\LevelSelect.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\LevelSelect.cs",
@@ -203,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UniversalAnimator.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\UniversalAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\UniversalAnimator.cs",
@@ -211,8 +211,7 @@
               "RelativeToolTip": "Assets\\Script\\UI\\UniversalAnimator.cs",
               "ViewState": "AgIAALcCAAAAAAAAAAAUwMcCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T23:46:50.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T23:46:50.021Z"
             },
             {
               "$type": "Document",
@@ -348,15 +347,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DogController.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\DogController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\DogController.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\DogController.cs",
               "RelativeToolTip": "Assets\\Script\\DogController.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAjwLEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAIAwwKMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:01:20.102Z"
+              "WhenOpened": "2025-06-18T12:01:20.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -372,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StickController.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\StickController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\StickController.cs",
