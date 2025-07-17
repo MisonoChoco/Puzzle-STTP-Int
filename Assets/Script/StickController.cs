@@ -20,6 +20,8 @@ public class StickController : MonoBehaviour
     public float groundYOffset = 0.1f;
 
     public float heldYOffset = 0.15f;
+    public GameObject stickBumpEffect;   // assign the particle prefab
+    public Transform stickEmitter;  // assign the tip transform in the inspector
 
     // State management
     private bool isRotating = false;
@@ -83,6 +85,8 @@ public class StickController : MonoBehaviour
             GridValidator.Instance.IsTileBlocked(targetEndTile))
         {
             Debug.Log($"[StickController] Rotation blocked: Target end {targetEndTile} invalid");
+            GameManager.PlayEffect(stickBumpEffect, stickEmitter.position);
+
             return false;
         }
 

@@ -708,7 +708,7 @@ Animator:
   m_GameObject: {fileID: 1049539154673693712}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 151411bbb09d0514ca13a9fea4c9e877, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6eaaf0c62be44ac41a9c698ecbc6efce, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -756,6 +756,8 @@ MonoBehaviour:
   OnRotate:
     m_PersistentCalls:
       m_Calls: []
+  bumpEffect: {fileID: 1103604914837481887, guid: 2f89c62268b5ba146959e0d48d095bba, type: 3}
+  emitter: {fileID: 6352569648889582968}
 --- !u!1 &1105052737016583347
 GameObject:
   m_ObjectHideFlags: 0

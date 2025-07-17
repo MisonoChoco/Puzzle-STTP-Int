@@ -7,7 +7,19 @@
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|e:\\unities\\puzzle sttp int\\assets\\script\\ui\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\stickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|e:\\unities\\puzzle sttp int\\assets\\script\\procamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\procamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\ui\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\universalanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\stickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stickcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\ui\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\manager\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\utilities\\directions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\utilities\\directions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|E:\\UNITIES\\Puzzle STTP Int\\assets\\script\\procamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C94596E-F648-0231-A70E-662EA5644F39}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\procamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,7 +106,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ExitButton.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\ExitButton.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\ExitButton.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "WinHandler.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\WinHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\WinHandler.cs",
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Progress.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\Manager\\Progress.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\Progress.cs",
@@ -142,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameScene.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\Manager\\GameScene.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Manager\\GameScene.cs",
@@ -154,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "LobbyHandler.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\LobbyHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\LobbyHandler.cs",
@@ -166,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LevelSelect.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\LevelSelect.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\LevelSelect.cs",
@@ -174,12 +174,11 @@
               "RelativeToolTip": "Assets\\Script\\UI\\LevelSelect.cs",
               "ViewState": "AgIAABMAAAAAAAAAAIAwwB4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T01:53:09.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T01:53:09.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "OnButtonClick.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\OnButtonClick.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\OnButtonClick.cs",
@@ -191,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CameraScaler.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\CameraScaler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\CameraScaler.cs",
@@ -203,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UniversalAnimator.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\UniversalAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\UniversalAnimator.cs",
@@ -215,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "iOSCompatibler.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UI\\iOSCompatibler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UI\\iOSCompatibler.cs",
@@ -227,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Directions.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\Utilities\\Directions.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Utilities\\Directions.cs",
@@ -239,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\LevelManager.cs",
@@ -251,31 +250,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAUwFkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T15:03:17.211Z"
+              "WhenOpened": "2025-06-19T15:03:17.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
               "Title": "ProCamera.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\ProCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ProCamera.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\ProCamera.cs",
               "RelativeToolTip": "Assets\\Script\\ProCamera.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T14:57:43.774Z"
+              "WhenOpened": "2025-06-19T14:57:43.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UndoManager.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\UndoManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\UndoManager.cs",
@@ -287,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Enums.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\Utilities\\Enums.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Utilities\\Enums.cs",
@@ -299,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GridValidator.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\GridValidator.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GridValidator.cs",
@@ -311,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "LevelAssets.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\Data\\LevelAssets.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Data\\LevelAssets.cs",
@@ -323,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "InputManager.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\InputManager.cs",
@@ -335,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LevelJsonData.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\Data\\LevelJsonData.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Data\\LevelJsonData.cs",
@@ -353,14 +354,14 @@
               "RelativeDocumentMoniker": "Assets\\Script\\DogController.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\DogController.cs",
               "RelativeToolTip": "Assets\\Script\\DogController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAIAwwKMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAAtwMwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T12:01:20.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GridManager.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\GridManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GridManager.cs",
@@ -372,15 +373,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "StickController.cs",
               "DocumentMoniker": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\StickController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\StickController.cs",
               "ToolTip": "E:\\UNITIES\\Puzzle STTP Int\\Assets\\Script\\StickController.cs",
               "RelativeToolTip": "Assets\\Script\\StickController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwFwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T11:59:39.814Z"
+              "WhenOpened": "2025-06-18T11:59:39.814Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -23,7 +23,8 @@ public class GameManager : MonoBehaviour
     [Header("Audio/Effects (Optional)")]
     public AudioSource winSound;
 
-    public ParticleSystem winEffect;
+    public GameObject stickBumpEffect;
+    public GameObject winEffect;
 
     private void Awake()
     {
@@ -54,6 +55,24 @@ public class GameManager : MonoBehaviour
             winUI.SetActive(false);
 
         Debug.Log($"[GameManager] Initialized with Dog: {dog?.name}, Stick: {stick?.name}");
+    }
+
+    public static void PlayEffect(GameObject effectPrefab, Vector3 position)
+    {
+        if (effectPrefab == null) return;
+
+        GameObject instance = GameObject.Instantiate(effectPrefab, position, Quaternion.identity);
+
+        ParticleSystem ps = instance.GetComponent<ParticleSystem>();
+        if (ps != null)
+        {
+            GameObject.Destroy(instance, ps.main.duration + ps.main.startLifetime.constantMax);
+        }
+        else
+        {
+            // fallback destroy if it's not a particle system
+            GameObject.Destroy(instance, 2f);
+        }
     }
 
     public void CheckForWin()

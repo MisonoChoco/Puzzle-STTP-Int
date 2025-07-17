@@ -1,7 +1,8 @@
 // ===== ENHANCED DOG CONTROLLER =====
 using DG.Tweening;
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.Playables;
 
 public class DogController : MonoBehaviour
 {
@@ -40,16 +41,27 @@ public class DogController : MonoBehaviour
     private Tween currentMoveTween;
     private Tween currentRotationTween;
 
+    private Animator animator;
+
+    [Header("Effects")]
+    public GameObject bumpEffect;
+
+    public Transform emitter;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     // movement
     public bool TryMove(Vector2Int direction)
     {
         if (isMoving || isRotating) return false;
 
-        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Resources/Move"), transform.position);
+        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Move"), transform.position);
 
         Vector2Int targetPos = gridPos + direction;
 
-        // Validate dog's target position
         if (!IsValidPosition(targetPos))
         {
             Debug.Log($"[DogController] Movement blocked: Target position {targetPos} is invalid");
@@ -57,18 +69,16 @@ public class DogController : MonoBehaviour
             return false;
         }
 
-        // If holding stick, validate stick's new position
-        if (hasStick && heldStick != null)
+        if (hasStick && heldStick != null && !ValidateStickMovement(direction))
         {
-            if (!ValidateStickMovement(direction))
-            {
-                Debug.Log($"[DogController] Movement blocked: Stick would collide at new position");
-                PlayBumpAnimation(direction);
-                return false;
-            }
+            Debug.Log($"[DogController] Movement blocked: Stick would collide at new position");
+            PlayBumpAnimation(direction);
+            return false;
         }
 
-        // Execute the move WITHOUT changing facing direction
+        // === Play run animation ===
+        animator?.SetTrigger("Run");
+
         ExecuteMove(targetPos, direction);
         return true;
     }
@@ -78,7 +88,7 @@ public class DogController : MonoBehaviour
     {
         if (isMoving || isRotating) return false;
 
-        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Resources/Move"), transform.position);
+        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Move"), transform.position);
 
         Direction newFacing = DirectionUtil.RotateLeft(facing);
         return ExecuteRotation(newFacing);
@@ -88,7 +98,7 @@ public class DogController : MonoBehaviour
     {
         if (isMoving || isRotating) return false;
 
-        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Resources/Move"), transform.position);
+        AudioSource.PlayClipAtPoint(Resources.Load<AudioClip>("Move"), transform.position);
 
         Direction newFacing = DirectionUtil.RotateRight(facing);
         return ExecuteRotation(newFacing);
@@ -96,7 +106,6 @@ public class DogController : MonoBehaviour
 
     private bool ExecuteRotation(Direction newFacing)
     {
-        // If holding stick, check if rotation would cause collision
         if (hasStick && heldStick != null)
         {
             Vector2Int potentialStickEnd = gridPos + DirectionUtil.ToVector(newFacing);
@@ -109,12 +118,9 @@ public class DogController : MonoBehaviour
         }
 
         isRotating = true;
-        // Fixed: Register the current facing direction before changing it
         UndoManager.Instance.RegisterRotation(facing);
 
-        Direction oldFacing = facing;
         facing = newFacing;
-
         float targetYRotation = DirectionUtil.ToYRotation(facing);
 
         currentRotationTween = transform.DORotate(new Vector3(0, targetYRotation, 0), rotationTime)
@@ -124,11 +130,8 @@ public class DogController : MonoBehaviour
                 isRotating = false;
                 OnRotate?.Invoke();
 
-                // Update stick direction if held
                 if (hasStick && heldStick != null)
-                {
                     heldStick.UpdateDirectionWithDog(facing);
-                }
             });
 
         return true;
@@ -163,17 +166,11 @@ public class DogController : MonoBehaviour
     private void ExecuteMove(Vector2Int targetPos, Vector2Int direction)
     {
         isMoving = true;
-
-        // Save state for undo before making changes
         UndoManager.Instance.RegisterMove(gridPos, facing, hasStick);
 
-        // Update grid position (NO FACING DIRECTION CHANGE)
-        Vector2Int oldPos = gridPos;
         gridPos = targetPos;
-
         OnMoveStart?.Invoke();
 
-        // Simple movement without rotation
         Vector3 targetWorldPos = GridToWorld(gridPos);
         currentMoveTween = transform.DOMove(targetWorldPos, moveTime)
             .SetEase(moveEase)
@@ -181,14 +178,13 @@ public class DogController : MonoBehaviour
             {
                 isMoving = false;
                 OnMoveComplete?.Invoke();
-                GameManager.Instance.CheckForWin();
+
+                if (CheckForWinInternal())
+                    animator?.SetTrigger("Happy");
             });
 
-        // Move stick simultaneously if held
         if (hasStick && heldStick != null)
-        {
             heldStick.MoveWithDog(direction, moveTime, moveEase);
-        }
     }
 
     private void PlayBumpAnimation(Vector2Int direction)
@@ -204,6 +200,30 @@ public class DogController : MonoBehaviour
             {
                 transform.DOMove(originalPos, 0.1f).SetEase(Ease.InQuad);
             });
+
+        GameManager.PlayEffect(bumpEffect, emitter.position);
+        animator?.SetTrigger("Angry");
+    }
+
+    private void PlayIdle()
+    {
+        animator?.SetTrigger("Idle");
+    }
+
+    private bool CheckForWinInternal()
+    {
+        Vector2Int[] stickTiles = heldStick?.OccupiedTiles;
+        if (stickTiles == null) return false;
+
+        foreach (var tile in stickTiles)
+        {
+            if (!GridValidator.Instance.IsWithinBounds(tile)) return false;
+            if (GridValidator.Instance.mapData[tile.x, tile.y] != TileType.Goal)
+                return false;
+        }
+
+        GameManager.Instance.CheckForWin();
+        return true;
     }
 
     public bool TryRotateStick(bool clockwise)
